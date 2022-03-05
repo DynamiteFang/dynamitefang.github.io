@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<center>
+<style>
+
+body {
+   background: #fcecfc;
+background: -moz-linear-gradient(top, #fcecfc 0%, #fba6e1 16%, #fd89d7 51%, #c3aaf7 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #fcecfc), color-stop(16%, #fba6e1), color-stop(51%, #fd89d7), color-stop(100%, #c3aaf7));
+background: -webkit-linear-gradient(top, #fcecfc 0%, #fba6e1 16%, #fd89d7 51%, #c3aaf7 100%);
+background: -o-linear-gradient(top, #fcecfc 0%, #fba6e1 16%, #fd89d7 51%, #c3aaf7 100%);
+background: -ms-linear-gradient(top, #fcecfc 0%, #fba6e1 16%, #fd89d7 51%, #c3aaf7 100%);
+background: linear-gradient(to bottom, #fcecfc 0%, #fba6e1 16%, #fd89d7 51%, #c3aaf7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#c3aaf7', GradientType=0 );
+padding: 1em;
+margin: 30px;
+display: flex;
+}
+
+.center-fit {
+            max-width: 90%;
+            max-height: 100vh;
+            margin: center;
+        }
+
+html {
+  scroll-behavior: smooth;
+}
+
+p{
+     font: 18px Arial, sans-serif;
+     color: white;
+     margin: 10px;
+}
+
+
+footer{position:fixed;bottom:0;left:0px;right:0px;height:30px;
+ background:PapayaWhip;}
+
+.topnav {
+  background-color: #8E45BF;
+  overflow: hidden;
+  position: top
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #D3A2CF;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #E539D7;
+  color: white;
+}
+
+h2 { font: 20px Verdana, sans-serif;
+color: white;
+border-bottom: 4px solid white;
+margin: 15px
+}
+
+h1 {font: 30px Helvetica;
+    color: white; 
+    margin:15px
+}
+
+.header {
+  padding: 10px 16px;;
+  color: #f1f1f1;
+  margin-top: 0px;
+}
+
+.content {
+  padding: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.myImage {
+  float: right;
+  font-family: Veranda;
+  position: sticky;
+  top: 0;
+}
+.heading {
+  float:left;
+}
+
+summary {
+  border: 4px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+  padding: 1rem;
+  display: block;
+  background: purple;
+  color: white;
+  padding-left: 2.2rem;
+  position: relative;
+  font-size: 14;
+  font-family: tahoma;
+}
+
+details {
+  max-width: 500px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  background: white;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+.content1 {
+  border-top: none;
+  padding: 10px;
+  border: 2px solid #888;
+  border-top: none;
+}
+
+b {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: verdana;
+  color: black;
+  font-size: 13px;
+  &:last-child {
+    padding: 0;
+  }
+}
+img {
+  max-width: 50%;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: white;
+}
+td, th {
+  border: 1px solid purple;
+  padding: 20px;
+}
+th {
+  background: purple;
+  color: white;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+.primary{
+  background-color: #000000
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+
+
+</style>
+<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Sweet Cakes - Pasteler&iacutea de Ensue&#241;o</title>
+   <div class="header" id="myHeader">
+       <img class="center-fit" src="https://i.imgur.com/wOKMFCb.png" title="Sweet Cakes" margin-top: "5px";>
+       </div> 
+    <div class="topnav">
+  <a class="active" href="https://dynamitefang.w3spaces.com/index.html">Home</a>
+  <a href="#Menu">Nuestro Men&uacute</a>
+  <a href="#Precio">Precios</a>
+  <a href="https://dynamitefang.w3spaces.com/Pedidos.html">Haz un Pedido</a>
+  <a href="https://dynamitefang.w3spaces.com/About.html">Acerca de Nosotros</a>
+  <a href="https://dynamitefang.w3spaces.com/login.html">Iniciar sesi&oacute;n</a>
+  
+</div>
+<div class="content">
+<p><center>
+    <h1>Pasteler&iacute;a Sweet Cakes</h1>
+    <h2>Pasteles, Panader&iacute;a, y Postres</h2></center><p>
+    <img src="https://i.imgur.com/75OtPvK.png" class="myImage"/>Bienvenido a Sweet Cakes, una nueva propuesta de sabor dedicado a aquellas maravillosas
+  princesas y princesitas del hogar, y por qu&eacute no, para aquel principe encantador tambi&eacuten.
+  <p>
+  Somos una pasteler&iacutea ubicada al sur de la Ciudad de M&eacutexico, aunque hacemos env&iacuteos a todo Valle de M&eacutexico sin costo extra.
+<p> Hacemos pasteles personalizados y en nuestras sucursales podr&aacutes encontrar nuestras deliciosas obras listas para consumo.
+<p>Nos gustar&iacutea ser parte de tu fecha especial, agenda con nosotros ahora mismo y sin compromiso te podemos cotizar el pastel de tus sue&#241;os.</p>
+  
+</div>
+<div class="content">
+        <h2 id="Menu">Men&uacute</h1><p>
+    A continuaci&oacuten te presentamos nuestras combinaciones predilectas, aunque claro, puedes armar la tuya:
+    </div>
+    
+
+<details>
+  <summary>Pastel Fantasy</summary>
+  <div class="content1">
+    <img src="https://i.pinimg.com/564x/94/66/94/946694115440828bb301151d28950e5a.jpg" alt="fantasy" float:"left"><br>
+    <br>
+    <b>
+    Pastel de pan sabor fresa con relleno sabor algod&oacuten de az&uacutecar, con cubierta de buttercream de moras decorado a tu gusto.
+    <br>
+    Puede incluir frutas como frutos rojos o fresas, o si te gusta m&aacutes dulce puede incluir golosinas como M&Ms o Skittles.
+    </b>
+  </div>
+</details>
+<details>
+  <summary>Pastel Monkey</summary>
+  <div class="content1">
+    <img src="https://disfrutandodelacocina.com/wp-content/uploads/2018/11/tarta-mico-d1.jpg" alt="Monkey"><br>
+    <b>
+    Pastel de pan sabor pl&aacutetano con relleno de chocolate, con cubierta de buttercream sabor pl&aacutetano.<br>
+    Puede llevar trozos de banana, almendra, nueces o chispas de chocolate.
+    </b>
+  </div>
+</details>
+<details>
+  <summary>Pastel Jungle</summary>
+  <div class="content1">
+    <img src="https://mericakes.com/wp-content/uploads/2019/06/Jungle-Cake-tarta-jungla-tarta-personalizada-fondant-nutella-mericakes-lion-cake-tarta-fondant-tartas-barcelona-pastel-infantil-bizcocho-vainilla-1.jpg" alt="Jungle"><br>
+    <b>
+    Pastel de pan de chocolate con relleno de crema batida y nueces, cubierto con buttercream de almendra.<br>
+    Puede llevar la fruta de tu elecci&oacuten.
+    </b>
+  </div>
+</details>
+<details>
+  <summary>Pastel Jungle</summary>
+  <div class="content1">
+    <img src="https://mericakes.com/wp-content/uploads/2019/06/Jungle-Cake-tarta-jungla-tarta-personalizada-fondant-nutella-mericakes-lion-cake-tarta-fondant-tartas-barcelona-pastel-infantil-bizcocho-vainilla-1.jpg" alt="Jungle"><br>
+    <b>
+    Pastel de pan de chocolate con relleno de crema batida y nueces, cubierto con buttercream de almendra.<br>
+    Puede llevar la fruta de tu elecci&oacuten.
+    </b>
+  </div>
+</details>
+<details>
+  <summary>Pastel Galaxy</summary>
+  <div class="content1">
+    <img src="https://sugarandsparrow.s3.us-west-2.amazonaws.com/flour/wp-content/uploads/2019/09/10093530/Galaxy-Cake-Tutorial-11.jpg" alt="Galaxy"><br>
+    <b>
+    Pastel de pan de mora azul con relleno de chocolate y blueberries, cubierto con buttercream de mora azul.<br>
+    Puede llevar la fruta de tu elecci&oacuten.
+    </b>
+  </div>
+</details>
+<details>
+  <summary>Pastel Fresh</summary>
+  <div class="content1">
+    <img src="https://dinnerthendessert.com/wp-content/uploads/2019/02/Mint-Chocolate-Cake.jpg" alt="Mint"><br>
+    <b>
+    Pastel de pan de chocolate con relleno de menta y chispas de chocolate, cubierto con buttercream de menta.<br>
+    Puede llevar la fruta de tu elecci&oacuten.
+    </b>
+  </div>
+</details>
+<details>
+  <summary>Pastel Matilda</summary>
+  <div class="content1">
+    <img src="https://i.pinimg.com/originals/fe/ce/dd/fecedda2c3af5b6975800357ca049e01.jpg" alt="Matilda"><br>
+    <b>
+    Pastel de pan de chocolate con relleno de m&ás chocolate y cubierto con a&uacuten m&aacutes chocolate.
+    </b>
+  </div>
+</details>
+<p>
+<h2 id="Precio">Precios</h2><p>
+  Te presentamos nuestra tabla de precios aproximados, los tama&#241;os de los pasteles los manejamos por aproximado de personas:
+  <p>
+
+<table>
+  <tr>
+    <th>Producto</th>
+    <th>Cantidad</th>
+    <th>Precio</th>
+  </tr>
+  <tr>
+    <td rowspan = "5">Pastel</td>
+    <td>10 personas</td>
+    <td>$600</td>
+  </tr>
+  <tr>
+    <td>15 personas</td>
+    <td>$900</td>
+  </tr>
+    <tr>
+    <td>20 personas</td>
+    <td>$1100</td>
+      <tr>
+    <td>30 personas</td>
+    <td>$1500</td>
+      <tr>
+    <td>50 personas</td>
+    <td>$2000</td>
+  </tr>
+  </tr>
+  </tr>
+      <td rowspan = "3">Velas de palito</td>
+    <td>Paquete de 5</td>
+    <td>$10</td>
+  </tr>
+  <tr>
+    <td>Paquete de 10</td>
+    <td>$18</td>
+  </tr>
+    <tr>
+    <td>Paquete de 20</td>
+    <td>$25</td>
+  </tr>
+      <tr>
+    <td rowspan = "3">Velas de figura</td>
+    <td>10 centimetros</td>
+    <td>$20</td>
+  </tr>
+  <tr>
+    <td>15 centimetros</td>
+    <td>$30</td>
+  </tr>
+    <tr>
+    <td>30 centimetros</td>
+    <td>$50</td>
+  </tr>
+
+</table>
+
+<footer>
+  2022 - LaunchX - Todos los derechos reservados</p>
+  </footer>
+    <script>
+</center>
+</div>
+ <hr><center>
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+$(".current").click(function(){
+  $(this).next("ul").toggle();
+});
+</script>
+</body>
+</html>
